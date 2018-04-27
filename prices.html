@@ -5,10 +5,12 @@
     <title>Our Price Calculator</title>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="data.json"></script>
+
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <header>
             <a href="index.html">
                 <p>Insurance <b> Company </b></p>
@@ -38,11 +40,15 @@
                 <br>
             </form>
         </main>
-        <input type="button" id="calc" value="Calculate" onclick="calc()">
+        <input type="button" id="calc" value="Calculate" onclick="calc()"><br>
         <div>
             <p id="price"></p>
         </div>
+        <footer id="footer">
+        <p>Copyright &copy; 2018 Alexander Hardo</p>
+    </footer>
     </div>
+    
 </body>
 
 </html>
