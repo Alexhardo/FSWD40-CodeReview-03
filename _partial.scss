@@ -1,0 +1,73 @@
+
+
+
+ .mainprice {
+     background-color: #445a7c;
+ }
+
+ .staff {
+     display: inline-flex;
+ }
+
+ .emp {
+     padding: 10px;
+ }
+
+ #disc {
+    font-weight: bold;
+     color: white;
+     text-align: $str;
+ }
+
+
+ .register {
+     color: white;
+     border-style: solid;
+     object-position: $str;
+     margin-top: 50px;
+     padding: 25px 25px 25px 25px;
+ }
+
+ #price {
+     text-align: $str;
+     color: white;
+     font-family: tahoma;
+
+}
+ #pricepage {
+
+     background-color: #4d6791;
+ }
+
+
+ input[type=text],
+ [type=number],
+ select {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     @include border-radius(4px);
+     box-sizing: border-box;
+ }
+
+ input[type=button] {
+     width: 50%;
+     background-color: #e6eeff;
+     color: black;
+     padding: 14px 20px;
+     margin: 8px 80px;
+     border: 1px solid;
+     border-radius: 20px;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ #btn {
+     width: 170px;
+     font-weight: bold;
+     border-radius: 20px;
+     border: 1px solid;
+     object-position: center;
+ }

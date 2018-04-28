@@ -1,128 +1,119 @@
- * {
-     margin: 0;
-     padding: 0;
- }
+* {
+  margin: 0;
+  padding: 0; }
 
- header {
-     background-color: #e6eeff;
-     text-align: center;
-     padding: 14px 16px;
-     height: 60px;
-     width: 100%;
- }
+header {
+  text-shadow: 1px 2px black;
+  background-color: #e6eeff;
+  text-align: center;
+  padding: 14px 16px;
+  height: 60px;
+  width: 100%; }
 
- footer {
+footer {
+  text-shadow: 1px 1px black;
+  background-color: #e6eeff;
+  padding: 14px 16px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center; }
 
-     background-color: #e6eeff;
-     padding: 14px 16px;
-     padding-bottom: 10px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     font-weight: bold;
-     width: 100%;
-     text-align: center;
- }
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 45px; }
 
- a {
-     text-decoration: none;
-     text-align: center;
-     font-size: 45px;
- }
+p {
+  color: darkorange; }
 
- p {
-     color: darkorange;
- }
+h1 {
+  font-size: 35px; }
 
- h1 {
-     font-size: 35px;
- }
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  /* position: relative;  
+     width: 85%;*/
+  padding-top: 14px;
+  padding-left: 15px;
+  background-color: darkgray; }
 
- body {
-     font-family: Helvetica, sans-serif;
-     font-size: 20px;
-     /* position: relative;  
-        width: 85%;*/
-     padding-top: 14px;
-     padding-left: 15px;
-     background-color: darkgray;
- }
+.container {
+  /*set the size of the header and the footer on 800 px and fone on arial */
+  margin-left: 10cm;
+  width: 800px; }
 
+main {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5px 0px 5px 0px;
+  width: 100%;
+  align-items: center;
+  background-color: #339966;
+  padding-left: 4%; }
 
- .container {
-     /*set the size of the header and the footer on 800 px and fone on arial */
-     margin-left: 10cm;
-     width: 800px;
- }
+.mainprice {
+  background-color: #445a7c; }
 
- main {
-     display: flex;
-     flex-flow: column wrap;
-     margin: 5px 0px 5px 0px;
-     width: 100%;
-     align-items: center;
-     background-color: #339966;
-     padding-left: 4%;
- }
+.staff {
+  display: inline-flex; }
 
- .mainprice{
-         background-color: #445a7c;
+.emp {
+  padding: 10px; }
 
+#disc {
+  font-weight: bold;
+  color: white;
+  text-align: center; }
 
- }
+.register {
+  color: white;
+  border-style: solid;
+  object-position: center;
+  margin-top: 50px;
+  padding: 25px 25px 25px 25px; }
 
- .staff {
-     display: inline-flex;
- }
+#price {
+  text-align: center;
+  color: white;
+  font-family: tahoma; }
 
- .emp {
-     padding: 10px;
- }
+#pricepage {
+  background-color: #4d6791; }
 
- #disc {
-     color: black;
-     text-align: center;
- }
-
-
- .register {
-    color:white;
-     border-style: solid;
-     object-position: center;
-     margin-top: 50px;
-     padding: 25px 25px 25px 25px;
-
- }
-
- #price {
-     text-align: center;
-     color:white;
-     font-family: tahoma;
- }
-
- #pricepage {
-
-     background-color: ##4d6791;
- }
-
-  
-  input[type=text],[type=number], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-} 
+input[type=text],
+[type=number],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  box-sizing: border-box; }
 
 input[type=button] {
-    width: 50%;
-    background-color: #e6eeff;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 80px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 20px;
-}
+  width: 50%;
+  background-color: #e6eeff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 80px;
+  border: 1px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px; }
+
+#btn {
+  width: 170px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid;
+  object-position: center; }
+
+/*# sourceMappingURL=style.css.map */

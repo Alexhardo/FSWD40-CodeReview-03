@@ -1,0 +1,81 @@
+
+$padding: 14px 16px;
+$str:center;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     text-shadow: 1px 2px black;
+     background-color: #e6eeff;
+     text-align: $str;
+     padding: $padding;
+     height: 60px;
+     width: 100%;
+ }
+
+ footer {
+     text-shadow: 1px 1px black;
+     background-color: #e6eeff;
+     padding: $padding;
+     padding-bottom: 10px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     font-weight: bold;
+     width: 100%;
+     text-align: $str;
+ }
+
+ a {
+     text-decoration: none;
+     text-align: $str;
+     font-size: 45px;
+ }
+
+ p {
+     color: darkorange;
+ }
+
+ h1{
+     font-size: 35px;
+ }
+
+ body {
+
+     font-family: Helvetica, sans-serif;
+     font-size: 20px;
+     /* position: relative;  
+        width: 85%;*/
+     padding-top: 14px;
+     padding-left: 15px;
+     background-color: darkgray;
+ }
+
+
+ .container {
+     /*set the size of the header and the footer on 800 px and fone on arial */
+     margin-left: 10cm;
+     width: 800px;
+ }
+
+ main {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 5px 0px 5px 0px;
+     width: 100%;
+     align-items: $str;
+     background-color: #339966;
+     padding-left: 4%;
+ }
+
+@import "partial";
