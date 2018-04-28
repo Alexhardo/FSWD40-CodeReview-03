@@ -1,50 +1,128 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-a {
-    text-decoration: none;
-    text-align: center;
-    font-size: 45px;
-}
+ header {
+     background-color: #e6eeff;
+     text-align: center;
+     padding: 14px 16px;
+     height: 60px;
+     width: 100%;
+ }
 
-p {
-    color: darkorange;
-}
+ footer {
 
-h1 {
-    font-size: 35px;
-}
+     background-color: #e6eeff;
+     padding: 14px 16px;
+     padding-bottom: 10px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     font-weight: bold;
+     width: 100%;
+     text-align: center;
+ }
 
-body {
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    /* position: relative;  
-    width: 85%;*/
-    padding-top: 14px;
-    padding-left: 15px;
-}
+ a {
+     text-decoration: none;
+     text-align: center;
+     font-size: 45px;
+ }
 
-header {
-    background-color: #e6eeff;
-    text-align: center;
-    padding: 14px 16px;
-    height: 60px;
+ p {
+     color: darkorange;
+ }
+
+ h1 {
+     font-size: 35px;
+ }
+
+ body {
+     font-family: Helvetica, sans-serif;
+     font-size: 20px;
+     /* position: relative;  
+        width: 85%;*/
+     padding-top: 14px;
+     padding-left: 15px;
+     background-color: darkgray;
+ }
+
+
+ .container {
+     /*set the size of the header and the footer on 800 px and fone on arial */
+     margin-left: 10cm;
+     width: 800px;
+ }
+
+ main {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 5px 0px 5px 0px;
+     width: 100%;
+     align-items: center;
+     background-color: #339966;
+     padding-left: 4%;
+ }
+
+ .mainprice{
+         background-color: #445a7c;
+
+
+ }
+
+ .staff {
+     display: inline-flex;
+ }
+
+ .emp {
+     padding: 10px;
+ }
+
+ #disc {
+     color: black;
+     text-align: center;
+ }
+
+
+ .register {
+    color:white;
+     border-style: solid;
+     object-position: center;
+     margin-top: 50px;
+     padding: 25px 25px 25px 25px;
+
+ }
+
+ #price {
+     text-align: center;
+     color:white;
+     font-family: tahoma;
+ }
+
+ #pricepage {
+
+     background-color: ##4d6791;
+ }
+
+  
+  input[type=text],[type=number], select {
     width: 100%;
-}
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
 
-footer {
-    text-align: center;
+input[type=button] {
+    width: 50%;
     background-color: #e6eeff;
-    padding: 14px 16px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.container {
-    /*set the size of the header and the footer on 800 px and fone on arial */
-    margin-left: 10cm;
-    width: 800px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 80px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
 }

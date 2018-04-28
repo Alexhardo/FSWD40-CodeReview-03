@@ -6,7 +6,6 @@
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="data.json"></script>
-
 </head>
 
 <body>
@@ -16,8 +15,8 @@
                 <p>Insurance <b> Company </b></p>
             </a>
         </header>
-        <main>
-            <form name="register">
+        <main class="mainprice">
+            <form class="register" action="#">
                 <label id="info">Your Name: </label>
                 <input type="text" id="name" placeholder="eg: Alex, Johny...">
                 <br>
@@ -28,7 +27,7 @@
                 <br>
                 <label id="info">Country: </label>
                 <select id="country" size="1">
-                    <option value="Austria">Austria</option>
+                    <option value="Austria" selected >Austria</option>
                     <option value="Germany">Germany</option>
                     <option value="Italy">Italy</option>
                 </select>
@@ -38,17 +37,20 @@
                 <input type="number" id="hp" placeholder="eg: 300, 400, 500 HP">
                 <br>
                 <br>
+         <input type="button"  value="Calculate" onclick="calc()">
+                
             </form>
-        </main>
-        <input type="button" id="calc" value="Calculate" onclick="calc()"><br>
-        <div>
+            <br>
+            
+            <br>
             <p id="price"></p>
-        </div>
+            <br>
+        </main>
+        
         <footer id="footer">
-        <p>Copyright &copy; 2018 Alexander Hardo</p>
-    </footer>
+            <p>Copyright &copy; 2018 Alexander Hardo</p>
+        </footer>
     </div>
-    
 </body>
 
 </html>
